@@ -4,7 +4,7 @@ import { connectDB } from './config/db.js';
 import userRoute from './router/userRoute.js';
 import boxRoute from './router/boxRoute.js'
 const app = express();
-const PORT = process.env.PORT||5000; 
+const PORT = process.env.PORT||5002; 
 import cors from 'cors';
 
 app.use(cors());
