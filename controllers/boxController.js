@@ -1,6 +1,7 @@
 import boxModel from '../model/boxModel.js'; 
 import userModel from '../model/userModel.js';
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs';
+
 import { v4 as uuidv4 } from 'uuid'
 
 // export const setupBox= async (req, res) => {

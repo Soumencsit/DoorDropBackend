@@ -1,7 +1,8 @@
 import userModel from "../model/userModel.js";
 import userOTPVerification from '../model/userOTPVerification.js'
 import 'dotenv/config';
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs';
+
 import validator from 'validator'
 import nodemailer from "nodemailer";
 
