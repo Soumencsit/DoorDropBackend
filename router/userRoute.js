@@ -1,6 +1,6 @@
 
 import express from 'express'
-import {loginUser,signUpUser,verifyOTP,sendOTPVerificationEmail} from '../controllers/UserController.js'
+import {loginUser,signUpUser,verifyOTP,sendOTPVerificationEmail} from '../controllers/userController.js'
 const createRoute=express.Router();
 
 createRoute.post('/login',loginUser)
